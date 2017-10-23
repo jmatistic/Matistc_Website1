@@ -1,0 +1,264 @@
+body, html {
+	height: 100%;
+}
+
+/* BASICS */
+	body {
+		background-color: #ffffff;
+		background-image: url("../img/balance.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		z-index: 3;
+	}
+
+/* HEADER */
+
+header {
+	max-width: 100%;
+	padding: 0 0 2rem 0;
+	background-color: transparent;
+}
+
+.logo {
+	width: 20%;
+	padding: 1rem 1rem 1rem 1rem;
+	background-color: #ffffff;
+}
+
+header nav {
+	float: right;
+	text-align: right;
+	color: #ffffff;
+}
+
+
+
+/* MAIN */
+
+main {
+	background-image: none;
+}
+
+.quote {
+	font-size: .8rem;
+	color: #B3E5FC;
+	top: 20%;
+	z-index: 3;
+	padding: 0;
+	margin: 0;
+	}
+
+	.forward {
+		position: absolute;
+		list-style: none;
+		top: 30%;
+		left: 15%;
+		z-index: 1;
+		color:  #fff;
+	}
+
+	.balance {
+		position: absolute;
+		list-style: none;
+		top: 40%;
+		left: 15%;
+		z-index: 1;
+		color: #fff;
+	}
+
+	.third {
+		position: absolute;
+		list-style: none;
+		top: 50%;
+		left: 15%;
+		z-index: 1; 
+		color: #fff;
+	}
+
+	.head1 {
+		font-size: 2rem;
+		color: #ffffff;
+	}
+
+	.head2 {
+		font-size: 2rem;
+		color: #ffffff;
+
+	}
+
+	.head3 {
+		font-size: 2rem;
+		color: #ffffff;
+	}
+
+	.firstquote {
+		position: absolute;
+		top: 50%;
+		font-size: .8rem;
+		color: #ffffff;
+	}
+
+	.secondquote {
+		position: absolute;
+		top: 53%;
+		font-size: .8rem;
+		color: #ffffff;
+	}
+
+	.thirdquote {
+		position: absolute;
+		top: 53%;
+		font-size: .8rem;
+		color: #ffffff;
+	}
+
+
+
+
+@media screen and (min-width: 30rem) {
+
+
+	main {
+		background-image: none;
+		}
+
+
+	.quote {
+		font-size: 2.5rem;
+		color: #B3E5FC;
+		text-align: center;
+		position: absolute;
+		top: 22%;
+		left: 29%;
+		z-index: 3;
+	}
+
+	.forward {
+		position: absolute;
+		list-style: none;
+		top: 35%;
+		left: 15%;
+		z-index: 1;
+	}
+
+	.balance {
+		position: absolute;
+		list-style: none;
+		top: 50%;
+		left: 15%;
+		z-index: 1;
+	}
+
+	.third {
+		position: absolute;
+		list-style: none;
+		top: 65%;
+		left: 15%;
+		z-index: 1;
+	}
+
+	.head1 {
+		font-size: 2rem;
+		color: #ffffff;
+	}
+
+	.head2 {
+		font-size: 2rem;
+		color: #ffffff;
+
+	}
+
+	.head3 {
+		font-size: 2rem;
+		color: #ffffff;
+	}
+
+	.firstquote {
+		position: absolute;
+		top: 50%;
+		font-size: .8rem;
+		color: #ffffff;
+	}
+
+	.secondquote {
+		position: absolute;
+		top: 53%;
+		font-size: .8rem;
+		color: #ffffff;
+	}
+
+	.thirdquote {
+		position: absolute;
+		top: 53%;
+		font-size: .8rem;
+		color: #ffffff;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 90%;
+}
+
+footer {
+		background-color: transparent;
+		padding: .5rem 5%;
+		overflow: hidden;
+		position:absolute;
+		left:0;
+		bottom: 0;
+		z-index:2;
+	}
+
+
+	footer .copyright {
+		float: left;
+		font-size: 1rem;
+		color: #eee;
+		line-height: 1rem;
+	}
+
+	footer ul {
+		color: #eee;
+	}
+
+	footer nav ul li {
+		display: inline-block;
+		
+	}
+
+	footer nav ul li a{
+		text-decoration: none;
+		color: #eee;
+
+	}
+
+	footer .nav-social {
+		list-style: none;
+		line-height: 1rem;
+		margin: 0;
+		padding: 2;
+
+	}
+
+	footer .fa {
+		float: right;
+		padding: 1rem;
+	}
+	
+
